@@ -1,38 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>DAF | BE PROUD</title>
     <script src="https://use.typekit.net/pmo5jjk.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script>
+        try {
+            Typekit.load({
+                async: true
+            });
+        } catch (e) {}
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="js/jquery.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 1000, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
 
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
+
 <body>
+
     <head>
-        <nav></nav>
+        <nav>
+            <a href="/"><img class="logo" src="img/svg/logo_beproud.svg" alt="logo-be-proud" /></a>
+
+            <div id="nav-icon3">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <section class="menu-full">
+                <li><a href="/">home</a></li>
+                    <li><a href="/">portfolio</a></li>
+                    <li><a href="/">about</a></li>
+                    <li><a href="/">cv</a></li>
+                    <li><a href="/">contact</a></li>
+            </section>
+        </nav>
     </head>
-    
+
     <section class="landingspage">
         <section class="landingspage-left">
-           <section class="text-left"> 
-                <h1 class="text">THEY DRIVE</h1>   
+            <section class="text-left">
+                <h1 class="text">THEY DRIVE</h1>
                 <h1 class="text-lower">FOR</h1></section>
         </section>
-         
-         <section class="landingspage-middle"></section>
-         
+
+        <a href="#loading-truck">
+            <section class="landingspage-middle"></section>
+        </a>
+
         <section class="landingspage-right">
             <section class="text-right">
-                 <h1 class="text">YOUR</h1>
-                 <h1 class="text-lower">COMFORT</h1> 
-            </section>    
+                <h1 class="text">YOUR</h1>
+                <h1 class="text-lower">COMFORT</h1>
+            </section>
         </section>
-        
+
     </section>
-    
-    <section class="loading-truck">
-        
-    </section>
+
+    <section id="loading-truck"></section>
 </body>
+
 </html>

@@ -55,7 +55,7 @@ scene4.on("enter", function (event) {
     $(this).prop('Counter',2000).animate({
         Counter: $(this).text()
     }, {
-        duration: 4000,
+        duration: 2500,
         easing: 'swing',
         step: function (now) {
             $(this).text(Math.ceil(now));

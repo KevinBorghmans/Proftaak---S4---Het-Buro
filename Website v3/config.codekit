@@ -11,6 +11,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/dist\/dist-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.29662e+06,
+		"inputAbbreviatedPath": "\/img\/dist\/dist-bg.png",
+		"outputAbbreviatedPath": "\/img\/dist\/dist-bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/landingspage\/left-split.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -66,6 +77,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/road\/road-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.7025e+06,
+		"inputAbbreviatedPath": "\/img\/road\/road-bg.png",
+		"outputAbbreviatedPath": "\/img\/road\/road-bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/store\/store-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.4209e+06,
+		"inputAbbreviatedPath": "\/img\/store\/store-bg.png",
+		"outputAbbreviatedPath": "\/img\/store\/store-bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -92,6 +125,28 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/jquery.js",
 		"outputAbbreviatedPath": "\/js\/min\/jquery-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/scroll-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/scroll-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/scroll-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/scroll.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/scroll.js",
+		"outputAbbreviatedPath": "\/js\/min\/scroll-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

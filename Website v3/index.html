@@ -14,8 +14,25 @@
     </script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenMax.min.js"></script>
     <script src="js/jquery.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var sT = $(this).scrollTop();
+                if (sT >= 600) {
+                    $('nav').addClass('color')
+                } else {
+                    $('nav').removeClass('color')
+                }
+            })
+        })
+    </script>
+
     <script>
         $(document).ready(function () {
             // Add smooth scrolling to all links
@@ -61,10 +78,10 @@
 
             <section class="menu-full">
                 <li><a href="/">home</a></li>
-                    <li><a href="/">portfolio</a></li>
-                    <li><a href="/">about</a></li>
-                    <li><a href="/">cv</a></li>
-                    <li><a href="/">contact</a></li>
+                <li><a href="/">portfolio</a></li>
+                <li><a href="/">about</a></li>
+                <li><a href="/">cv</a></li>
+                <li><a href="/">contact</a></li>
             </section>
         </nav>
     </head>
@@ -76,7 +93,7 @@
                 <h1 class="text-lower">FOR</h1></section>
         </section>
 
-        <a href="#loading-truck">
+        <a href="#product-journey">
             <section class="landingspage-middle"></section>
         </a>
 
@@ -89,7 +106,58 @@
 
     </section>
 
-    <section id="loading-truck"></section>
+    <section id="product-journey"></section>
+
+    <section class="loading-truck">
+       <div id="trigger1"></div>
+        <div class="container">
+            <div class="inner">
+                <figure class="chart" data-percent="25">
+                    <figcaption></figcaption>
+                         <svg class="timelineSvg"><desc></desc><defs></defs><circle class="outer" cx="250" cy="250" r="247.5" fill="none" stroke="rgba(255,255,255,1)" style="stroke-width: 6;" class="shape" transform="rotate(-90, 250, 250)" ></circle></svg>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="on-road">
+       <div id="trigger2"></div>
+       <div class="container">
+            <div class="inner">
+                <figure class="chart" data-percent="50">
+                    <figcaption></figcaption>
+                         <svg class="timelineSvg2"><desc></desc><defs></defs><circle class="outer" cx="250" cy="250" r="247.5" fill="none" stroke="rgba(255,255,255,1)" style="stroke-width: 6;" class="shape" transform="rotate(-90, 250, 250)" ></circle></svg>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="dist">
+        <div id="trigger3"></div>
+        <div class="container">
+            <div class="inner">
+                <figure class="chart" data-percent="75">
+                    <figcaption>
+                        <div class=""><h1>1000km</h1></div>
+                    </figcaption>
+                         <svg class="timelineSvg3"><desc></desc><defs></defs><circle class="outer" cx="250" cy="250" r="247.5" fill="none" stroke="rgba(255,255,255,1)" style="stroke-width: 6;" class="shape" transform="rotate(-90, 250, 250)" ></circle></svg>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="end-store">
+        <div id="trigger4"></div>
+        <div class="container">
+            <div class="inner">
+                <figure class="chart" data-percent="100">
+                    <figcaption></figcaption>
+                         <svg class="timelineSvg4"><desc></desc><defs></defs><circle class="outer" cx="250" cy="250" r="247.5" fill="none" stroke="rgba(255,255,255,1)" style="stroke-width: 6;" class="shape" transform="rotate(-90, 250, 250)" ></circle></svg>
+                </figure>
+            </div>
+        </div>
+    </section>
+    <script src="js/scroll.js"></script>
 </body>
 
 </html>
